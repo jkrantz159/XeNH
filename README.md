@@ -21,6 +21,8 @@ This repository contains the code used to produce:
 
 This code implements a Monte Carlo simulation framework to explore parameter space for mantle degassing and volatile recycling models. The models use a box model approach with sigmoidal growth for subduction onset, testing against observational constraints from noble gas and nitrogen isotope systematics.
 
+**Available in both MATLAB and Python!**
+
 ### Key Features
 
 - **Monte Carlo parameter exploration**: Large-scale random sampling of parameter space
@@ -28,17 +30,19 @@ This code implements a Monte Carlo simulation framework to explore parameter spa
 - **Parallel processing**: Efficient computation using MATLAB's Parallel Computing Toolbox
 - **Configurable parameters**: Centralized configuration for all physical constants
 - **Comprehensive visualization**: Kernel density estimation plots for parameter distributions
+- **Python version**: Cross-platform implementation without MATLAB license requirement
 
 ## Installation
 
-### Requirements
+### MATLAB Version
 
+**Requirements:**
 - **MATLAB** R2018b or later (recommended: R2020a+)
 - **Required Toolboxes**:
   - Parallel Computing Toolbox
   - Statistics and Machine Learning Toolbox
 
-### Setup
+**Setup:**
 
 1. Clone this repository:
    ```bash
@@ -56,6 +60,30 @@ This code implements a Monte Carlo simulation framework to explore parameter spa
    cd tests
    run_basic_tests
    ```
+
+### Python Version
+
+**Requirements:**
+- Python 3.7 or later
+- NumPy, SciPy, Matplotlib, Pandas
+
+**Setup:**
+
+1. Clone the repository (same as above)
+
+2. Install dependencies:
+   ```bash
+   pip install numpy scipy matplotlib pandas
+   ```
+
+3. Run example:
+   ```bash
+   cd python/src
+   python generate_example_data.py
+   python create_visualizations.py
+   ```
+
+See `python/README.md` for detailed Python-specific instructions.
 
 ## Quick Start
 
