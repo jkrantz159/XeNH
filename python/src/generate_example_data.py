@@ -1,8 +1,15 @@
 """
 Generate example success data and visualizations for demonstration
 
+⚠️  WARNING: This generates SYNTHETIC/MOCK data for demonstration only!
+
 This script creates realistic mock data to demonstrate the expected
 output format and generate example figures for the repository.
+
+THE PARAMETERS ARE NOT VALIDATED against actual success criteria.
+They are randomly drawn from realistic distributions based on literature.
+
+For REAL validated successes, run run_simulation.py instead.
 """
 
 import numpy as np

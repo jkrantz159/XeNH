@@ -16,13 +16,19 @@ cd python/src
 python run_simulation.py
 ```
 
+## ⚠️ Important Note About Example Data
+
+The data in `results/success_example.csv` and figures in `figures/` are **SYNTHETIC** for demonstration purposes. They show expected output format but are NOT validated successes.
+
+To generate real validated successes, run the simulation (see below).
+
 ## Files
 
 - `model_config.py`: Configuration and constants
 - `model_utils.py`: Utility functions
 - `parallel_xe_model.py`: Xenon isotope model
 - `parallel_n_model.py`: Nitrogen isotope model
-- `run_simulation.py`: Main Monte Carlo simulation
+- `run_simulation.py`: Main Monte Carlo simulation (finds REAL successes)
 
 ## Differences from MATLAB Version
 
