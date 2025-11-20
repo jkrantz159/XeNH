@@ -39,6 +39,9 @@ figures/*.png
 figures/*.fig
 figures/*.eps
 
+# Runtime logs
+logs/
+
 # OS-specific files
 .DS_Store
 Thumbs.db
