@@ -1,0 +1,31 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.mex*
+*.mat~
+
+# Results and output files
+results/*.txt
+results/*.csv
+results/*.mat
+
+# Generated figures
+figures/*.jpg
+figures/*.png
+figures/*.fig
+figures/*.eps
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Large data files (uncomment if needed)
+# data/*.csv
+# data/*.txt

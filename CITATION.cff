@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "XeNH: Coupled H-N-Xe Recycling Model"
+abstract: "MATLAB code for modeling coupled H-N-Xe recycling in Earth's mantle, tracing mantle regassing and the onset of subduction using observations of H, N, and Xe isotopes."
+authors:
+  - family-names: "Krantz"
+    given-names: "John A."
+    affiliation: "Department of Earth, Environmental, and Planetary Sciences, Brown University"
+  - family-names: "Barry"
+    given-names: "Peter H."
+    affiliation: "Woods Hole Oceanographic Institution"
+  - family-names: "Parman"
+    given-names: "Stephen W."
+    affiliation: "Department of Earth, Environmental, and Planetary Sciences, Brown University"
+repository-code: "https://github.com/jkrantz159/XeNH"
+license: MIT
+date-released: 2020-05-01
+preferred-citation:
+  type: article
+  title: "Tracing Mantle Regassing and the Onset of Subduction Using Observations of H, N, and Xe"
+  authors:
+    - family-names: "Krantz"
+      given-names: "John A."
+    - family-names: "Barry"
+      given-names: "Peter H."
+    - family-names: "Parman"
+      given-names: "Stephen W."
+  journal: "Earth and Planetary Science Letters"
+  year: 2020
+  month: 5
