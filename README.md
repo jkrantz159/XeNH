@@ -85,6 +85,22 @@ This code implements a Monte Carlo simulation framework to explore parameter spa
 
 See `python/README.md` for detailed Python-specific instructions.
 
+### Google Colab (No Installation Required!)
+
+Run simulations directly in your browser using Google Colab's free cloud computing:
+
+1. Open [XeNH_Simulation_Colab.ipynb](https://colab.research.google.com/github/jkrantz159/XeNH/blob/main/XeNH_Simulation_Colab.ipynb) in Google Colab
+2. Run all cells in order
+3. Download results when complete
+
+See [COLAB_README.md](COLAB_README.md) for detailed instructions.
+
+**Benefits:**
+- ✅ No installation required
+- ✅ Free GPU/CPU resources
+- ✅ Works on any device with a browser
+- ✅ Includes visualization and download tools
+
 ## Quick Start
 
 ### Running a Basic Simulation
