@@ -7,7 +7,11 @@ If you see this error:
 ModuleNotFoundError: No module named 'model_config'
 ```
 
-### Solution 1: Reload the Notebook (Recommended)
+### Root Cause
+
+The `%cd` command in Jupyter/Colab notebooks doesn't persist between cells. Each cell that needs the Python modules must ensure it's in the correct directory (`/content/XeNH/python/src`).
+
+### Solution 1: Reload the Latest Notebook (Recommended)
 
 Colab may be caching an old version of the notebook. To get the latest version:
 
