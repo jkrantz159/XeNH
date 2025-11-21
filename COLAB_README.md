@@ -2,6 +2,12 @@
 
 This guide explains how to run the XeNH Monte Carlo simulations using Google Colab's free cloud computing resources.
 
+## ⚠️ Important: Branch Information
+
+**Current Status:** The notebook is configured to use the `claude/google-colab-support-01CL1eMMoLYfXqHoiGmoNCdM` branch, which contains both the Python implementation and Colab notebook.
+
+**After merging to main:** Once this branch is merged into the main branch, the notebook will be updated to use the main branch automatically. Until then, the notebook will continue to use the specified feature branch.
+
 ## Quick Start
 
 ### Option 1: Open from GitHub (Recommended)
